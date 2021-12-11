@@ -1,0 +1,70 @@
+.container5 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.projetos {
+  color: black;
+  font-size: 35px;
+  display: flex;
+}
+
+.divProjetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projetosRealizados {
+  display: flex;
+  background-color: #3d5e33;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.descricaoProjeto {
+  
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+
+.descricaoProjeto span {
+  color: black;
+}
+.obj {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+
+.nomeProjeto {
+  color: white;
+  font-size: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.listaProjetos {
+  display: grid;
+  margin-left: 50px;
+}
+
+.listaProjetos li {
+  line-height: 1.5;
+  list-style: disc;
+  font-size: 18px;
+}
+
+.tituloProjeto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}

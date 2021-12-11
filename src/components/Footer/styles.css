@@ -1,0 +1,36 @@
+
+.header{
+    bottom: 0;
+    background-color: #426144e0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+span{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.logos{
+    width:30px;
+    margin-left: 10px;
+    
+}
+
+.redesSociais{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:999px){
+    .header{
+        flex-wrap: wrap;
+        height: 80px;
+       
+    }
+}
+

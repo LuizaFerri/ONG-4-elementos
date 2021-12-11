@@ -1,0 +1,150 @@
+main {
+  margin-top: 50px;
+}
+
+.titulo {
+  color: #000000;
+  font-weight: lighter;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.foto_imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imagem {
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.objetivos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  align-items: center;
+}
+
+.descricao {
+  color: black;
+  padding: 30px;
+  margin-left: 0;
+}
+
+.item {
+  display: grid;
+  justify-items: center;
+  max-width: 500px;
+}
+
+.imgItens {
+  width: 380px;
+}
+
+.imgItensp {
+  width: 350px;
+  padding: 15px;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quemsomos {
+  width: 80%;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.parceiros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descricaoParceiros {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.descricaoTransparencia {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.transparencia {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.link {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.link a {
+  text-decoration: none;
+  color: rgb(50, 124, 50);
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1134px) {
+  .objetivos {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1134px) {
+  .container4 {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .imgItens {
+    width: 400px;
+  }
+  .descricao {
+    font-size: 20px;
+  }
+  .imagem {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .imgItens {
+    width: 300px;
+  }
+  .descricao {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .quemsomos {
+    font-size: 20px;
+    width: 85%;
+  }
+  .titulo {
+    font-size: 30px;
+  }
+  .imagem {
+    width: 100%;
+  }
+}
