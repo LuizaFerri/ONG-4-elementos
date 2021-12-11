@@ -8,7 +8,7 @@ import Footer from '../../components/Footer'
 export default function Home () {
     return(
         <>
-         <Header />
+         <Header /> 
             <div className="container2">
                 <div className="imagemHome">
                     <img src={img} />
