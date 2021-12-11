@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 .container5 {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -53,6 +54,8 @@
     font-size: 22px;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
   }
   
   .listaProjetos {
@@ -71,3 +74,28 @@
       justify-content: center;
       margin-bottom: 50px;
   }
+
+  /*responsividade */
+
+  @media screen and (max-width:720px) {
+    .projetosRealizados{
+      height: auto;
+      padding-bottom:7px;
+      width: 45%;
+    }
+    .descricaoProjeto{
+      height: auto;
+    }
+  }
+
+
+  @media screen and (max-width:520px) {
+    .obj{
+     font-size: 18px;
+    }
+    .listaProjetos li {
+      font-size: 18px;
+    }
+  }
+
+  

@@ -15,7 +15,7 @@ export default function ProjetosAtuais() {
         <div className="divProjetos">
           <div className="projetosRealizados">
             <span className="nomeProjeto">
-              Projeto: Wash 36: água, saneamento e higiene (2021 a 2023)
+              Projeto: Wash 36: água, saneamento e higiene <br /> (2021 a 2023)
             </span>
           </div>
           <div className="descricaoProjeto">
@@ -49,7 +49,7 @@ export default function ProjetosAtuais() {
         <div className="divProjetos">
           <div className="projetosRealizados">
             <span className="nomeProjeto">
-              Projeto: Re-criar o pátio da escola (2022 a 2024)
+              Projeto: Re-criar o pátio da escola <br /> (2022 a 2024)
             </span>
           </div>
           <div className="descricaoProjeto">
@@ -79,7 +79,7 @@ export default function ProjetosAtuais() {
         <div className="divProjetos">
           <div className="projetosRealizados">
             <span className="nomeProjeto">
-              Projeto: Caravana água e juventude (2022 a 2024)
+              Projeto: Caravana água e juventude   <br />(2022 a 2024)
             </span>
           </div>
           <div className="descricaoProjeto">
@@ -108,7 +108,7 @@ export default function ProjetosAtuais() {
         <div className="divProjetos">
           <div className="projetosRealizados">
             <span className="nomeProjeto">
-              Projeto: Consumo consciente:repensar nossos hábitos (2022 a 2024)
+              Projeto: Consumo consciente:repensar nossos hábitos  <br /> (2022 a 2024)
             </span>
           </div>
           <div className="descricaoProjeto">
@@ -139,7 +139,7 @@ export default function ProjetosAtuais() {
         <div className="divProjetos">
           <div className="projetosRealizados">
             <span className="nomeProjeto">
-              Projeto: Agroecologia para enfrentar as mudanças climáticas (2022
+              Projeto: Agroecologia para enfrentar as mudanças climáticas  <br /> (2022
               a 2024)
             </span>
           </div>
