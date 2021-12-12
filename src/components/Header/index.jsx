@@ -47,9 +47,10 @@ function Header() {
               Participe
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a href="#">Voluntário</a>
+              <a href="#">Associado</a>
+              <Link to ="/doacao"> Doação </Link>
+              
             </div>
           </li>
           <li className="dropdown">

@@ -5,6 +5,7 @@ import Home from '../screens/Home/index';
 import QuemSomos from '../screens/QuemSomos/index';
 import ProjetosRealizados from '../screens/projetosRealizados/index'
 import ProjetosAtuais from '../screens/projetosAtuais/index'
+import Doacao from '../screens/Doacao/index'
 
 const Routes = () => {
     return (
@@ -14,6 +15,7 @@ const Routes = () => {
             <Route component={ QuemSomos } path="/quemsomos" />
             <Route component={ ProjetosRealizados } path="/projetosrealizados" />
             <Route component={ ProjetosAtuais } path="/projetosatuais" />
+            <Route component={ Doacao } path="/doacao" />
             </Switch>
         </BrowserRouter>
     )
