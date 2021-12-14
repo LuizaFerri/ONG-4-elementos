@@ -20,7 +20,31 @@ export default function Doacao() {
           alcançar ainda mais pessoas e regiões benefeciadas em nossos projetos!
           Os valores doados são utilizados para:
         </p>
-        
+        <div className="itensDoacao">
+          <img className="imgsDoacao" src={manutencao} />
+          <span className="descricaoDoacao">
+            Manutenção institucional: <br /> É fundamental remunerar nossos
+            colaboradores para que a luta continue.
+          </span>
+          <img className="imgsDoacao" src={planta} />
+          <span className="descricaoDoacao">
+            Plantio de árvores: <br /> Confira a sessão “Adote uma árvore” para
+            mais detalhes!
+          </span>
+        </div>
+        <div className="itensDoacao">
+          <img className="imgsDoacao" src={lixo} />
+          <span className="descricaoDoacao">
+            Gestão de projetos: <br /> Mesmo o menor dos projetos exige recursos
+            para ser viabilizado
+          </span>
+          <img className="imgsDoacao" src={remuneracao} />
+          <span className="descricaoDoacao">
+            Remuneração de parceiros:
+            <br />O instituto sempre busca experts <br />para aconselhar e orientar
+            nosso staff<br /> e melhorar cada vez mais os serviços realizados.
+          </span>
+        </div>
       </div>
       <Footer />
     </>
