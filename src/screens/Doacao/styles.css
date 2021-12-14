@@ -35,19 +35,23 @@
 .itensDoacao{
     margin-top: 50px;
     display: flex;
-    align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    flex-wrap: wrap;
     max-width: 900px;
+ 
     
+}
+.divItensDoacao{
+    flex: 1 1 300px;
+    padding: 20px;
 }
 
 .imgsDoacao{
-    width: 60px;
+    width: 80px;
+    height: 80px;
 }
 
 .descricaoDoacao{
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 10px;
 }
