@@ -65,10 +65,10 @@ export default function Voluntarios() {
                 <form className='volFormulario'>
                     <label>
                         <span className='tituloFormulario'>Home:</span>
-                        <input className='valorInput' type="text" />  
+                        <input className='valorInput' type="text" />
 
                         <span className='tituloFormulario'>Telefone:</span>
-                        <input className='valorInput' type="number" />  
+                        <input className='valorInput' type="number" />
 
                         <span className='tituloFormulario'>Endereço:</span>
                         <input className='valorInput' type="text" />
@@ -77,7 +77,7 @@ export default function Voluntarios() {
                         <input className='descricaoFormulario' type="text" />
 
                         <span className='tituloFormulario'>Como gostaria de contribuir?</span>
-                        <input className='descricaoFormulario'type="text" />
+                        <input className='descricaoFormulario' type="text" />
                     </label>
                 </form>
 
