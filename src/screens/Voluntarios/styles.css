@@ -56,9 +56,36 @@
 
 .textoVolFormulario{
     font-size: 25px;
-
 }
 
+.volFormulario{
+    background-color: rgb(235, 235, 235);
+    width: 80%;
+    height: 450px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.tituloFormulario{
+    display: flex;
+    margin-top: 20px;
+    color: black;
+}
+
+.valorInput{
+    width: 30%;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.descricaoFormulario{
+    width: 30%;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
 @media screen and (max-width:360){
 
 }
