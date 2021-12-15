@@ -18,7 +18,7 @@
 .textoVolPrincipal p{
     font-size: 25px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 
 }
 .caixaVolExplicacao{
@@ -30,7 +30,7 @@
 .VoluntarioIcons{
     width: 35px;
     align-items: center;
-    margin-left: 35%;
+    margin-left: 38%;
     margin-bottom: 15px;
     margin-top: 15px;
 }
@@ -44,11 +44,20 @@
 }
 
 .caixaVolExplicacao p{
-    padding-right: 60px;
+    margin-right: 40px;
     text-align: center;
     font-size: 18px;
 }
 
+.imagemVegetacao{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.textoVolFormulario{
+    font-size: 25px;
+
+}
 
 @media screen and (max-width:360){
 
