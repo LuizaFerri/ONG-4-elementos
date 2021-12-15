@@ -22,37 +22,42 @@ export default function Doacao() {
         </p>
         <div className="itensDoacao">
           <div className="divItensDoacao">
-            <img className="imgsDoacao" src={manutencao} />
+            <div className="divImgP">
+              <img className="imgsDoacao" src={manutencao} />
+              <p className="tituloIcons">Manutenção institucional:</p>
+            </div>
             <span className="descricaoDoacao">
-              Manutenção institucional: <br /> É fundamental remunerar nossos
-              colaboradores para que a luta continue.
-            </span>{" "}
+              É fundamental remunerar nossos colaboradores para que a luta
+              continue.
+            </span>
           </div>
           <div className="divItensDoacao">
-            {" "}
-            <img className="imgsDoacao" src={planta} />
+            <div className="divImgP">
+              <img className="imgsDoacao" src={planta} />
+              <p className="tituloIcons">Plantio de árvores: </p>
+            </div>
             <span className="descricaoDoacao">
-              Plantio de árvores: <br /> Confira a sessão “Adote uma árvore”
-              para mais detalhes!
-            </span>{" "}
+              <br /> Confira a sessão “Adote uma árvore” para mais detalhes!
+            </span>
           </div>
           <div className="divItensDoacao">
-            {" "}
-            <img className="imgsDoacao" src={lixo} />
+            <div className="divImgP">
+              <img className="imgsDoacao" src={lixo} />
+              <p className="tituloIcons">Gestão de projetos: </p>
+            </div>
             <span className="descricaoDoacao">
-              Gestão de projetos: <br /> Mesmo o menor dos projetos exige
-              recursos para ser viabilizado
-            </span>{" "}
+              Mesmo o menor dos projetos exige recursos para ser viabilizado
+            </span>
           </div>
           <div className="divItensDoacao">
-            {" "}
-            <img className="imgsDoacao" src={remuneracao} />
+            <div className="divImgP">
+              <img className="imgsDoacao" src={remuneracao} />
+              <p className="tituloIcons"> Remuneração de parceiros: </p>
+            </div>
             <span className="descricaoDoacao">
-              Remuneração de parceiros:
-              <br />O instituto sempre busca experts 
-              para aconselhar e orientar nosso staff
-               e melhorar cada vez mais os serviços realizados.
-            </span>{" "}
+              O instituto sempre busca experts para aconselhar e orientar nosso
+              staff e melhorar cada vez mais os serviços realizados.
+            </span>
           </div>
         </div>
       </div>
