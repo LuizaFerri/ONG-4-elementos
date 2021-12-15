@@ -22,16 +22,17 @@
 
 }
 .caixaVolExplicacao{
-    margin-left: 3%;
-    display: flex;
+    margin-left: 5%;
     margin-bottom: 20px;
+    display: inline-flex;
 }
 
 .VoluntarioIcons{
-    width: 40px;
+    width: 35px;
     align-items: center;
-    margin-left: 39%;
-    margin-bottom: 10px;
+    margin-left: 35%;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .caixaVolExplicacao h1{
@@ -46,4 +47,10 @@
     padding-right: 60px;
     text-align: center;
     font-size: 18px;
+}
+
+
+@media screen and (max-width:360){
+    .caixaVolExplicacao{
+    }
 }
