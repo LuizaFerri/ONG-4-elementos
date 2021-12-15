@@ -3,9 +3,10 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from '../screens/Home/index';
 import QuemSomos from '../screens/QuemSomos/index';
-import ProjetosRealizados from '../screens/projetosRealizados/index'
-import ProjetosAtuais from '../screens/projetosAtuais/index'
-import Doacao from '../screens/Doacao/index'
+import ProjetosRealizados from '../screens/projetosRealizados/index';
+import ProjetosAtuais from '../screens/projetosAtuais/index';
+import Doacao from '../screens/Doacao/index';
+import Voluntarios from '../screens/Voluntarios/index';
 
 const Routes = () => {
     return (
@@ -16,6 +17,7 @@ const Routes = () => {
             <Route component={ ProjetosRealizados } path="/projetosrealizados" />
             <Route component={ ProjetosAtuais } path="/projetosatuais" />
             <Route component={ Doacao } path="/doacao" />
+            <Route component={ Voluntarios } path="/voluntario" />
             </Switch>
         </BrowserRouter>
     )
