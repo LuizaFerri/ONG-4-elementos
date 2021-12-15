@@ -3,6 +3,7 @@ import './styles.css';
 import comunicacaoIcon from '../../assets/voluntario/iconeComunicacao.png';
 import estrelaIcon from '../../assets/voluntario/iconeEstrela.png';
 import trofeuIcon from '../../assets//voluntario/iconeTrofeu.png';
+import imagemVegetacao from '../../assets/voluntario/imagemVegetacao.jpg';
 
 import Header from '../../components/Header/index';
 import Footer from '../../components/Footer/index';
@@ -48,6 +49,20 @@ export default function Voluntarios(){
                             nossas ações de impacto socioambiental!</p>
                     </div>
                 </div>
+
+                <img className='imagemVegetacao' src={imagemVegetacao} />
+
+                <div className="textoVolPrincipal">
+                    <h1>Venha ser um voluntário!</h1>
+                </div>
+
+                <div className="textoVolFormulario">
+                    <p>Preencha o formulário disponível no link abaixo e nos conte um pouco mais sobre
+                        você e como gostaria de contribuir.
+                    </p>
+                </div>
+
+                
 
             </div>
             <Footer/>
