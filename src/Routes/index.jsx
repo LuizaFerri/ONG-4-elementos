@@ -7,6 +7,7 @@ import ProjetosRealizados from '../screens/projetosRealizados/index';
 import ProjetosAtuais from '../screens/projetosAtuais/index';
 import Doacao from '../screens/Doacao/index';
 import Voluntarios from '../screens/Voluntarios/index';
+import Associado from "../screens/Associado";
 
 const Routes = () => {
     return (
@@ -18,6 +19,7 @@ const Routes = () => {
             <Route component={ ProjetosAtuais } path="/projetosatuais" />
             <Route component={ Doacao } path="/doacao" />
             <Route component={ Voluntarios } path="/voluntario" />
+            <Route component={ Associado } path="/associado" />
             </Switch>
         </BrowserRouter>
     )
