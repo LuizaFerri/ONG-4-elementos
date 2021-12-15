@@ -14,7 +14,7 @@ export default function Voluntarios(){
             <Header/>
             <div className="containerVol">
                 <div className="textoVolPrincipal">
-                    <h1>Volúntario</h1>
+                    <h1>Voluntário</h1>
                     <p>O Instituto 4 Elementos está sempre aberto para novos<br/>
                         voluntários! Apreciamos toda e qualquer ajuda. Veja<br/>
                         alguns trabalhos em que você pode se envolver:</p>
