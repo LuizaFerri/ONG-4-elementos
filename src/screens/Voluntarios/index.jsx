@@ -12,7 +12,7 @@ import Footer from '../../components/Footer/index';
 export default function Voluntarios() {
     return (
         <>
-
+            <Header/>
             <div className="containerVol">
                 <div className="textoVolPrincipal">
                     <h1>Voluntário</h1>
@@ -24,6 +24,7 @@ export default function Voluntarios() {
                 <div className="volExplicacao">
                     <ul>
                         <li>
+                            <img className='volIcones' src={comunicacaoIcon} />
                             <h1>Comunicação</h1>
                             <p>Gosta de gestão de mídias sociais? Design gráfico?<br/>
                                 Storytelling? Engajamento virtual? Precisamos de<br/>
@@ -32,6 +33,7 @@ export default function Voluntarios() {
                         </li>
 
                         <li>
+                        <img className='volIcones' src={estrelaIcon} />
                             <h1>Captação</h1>
                             <p>O terceiro setor precisa muito de recursos para<br/>
                                 funcionar, e um dos mais importantes canais é a<br/>
@@ -40,6 +42,7 @@ export default function Voluntarios() {
                         </li>
 
                         <li>
+                        <img className='volIcones' src={trofeuIcon} />
                             <h1>Projetos</h1>
                             <p>O Instituto 4 Elementos tem diversos projetos na<br/>
                                 manga, pequenos e grandes, precisando de mais<br/>
@@ -79,8 +82,8 @@ export default function Voluntarios() {
                         <input className='descricaoFormulario' type="text" />
                     </label>
                 </form>
-
             </div>
+            <Footer/>
         </>
     )
 }
