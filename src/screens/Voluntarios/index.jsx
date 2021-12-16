@@ -12,7 +12,7 @@ import Footer from '../../components/Footer/index';
 export default function Voluntarios() {
     return (
         <>
-            <Header />
+
             <div className="containerVol">
                 <div className="textoVolPrincipal">
                     <h1>Voluntário</h1>
@@ -21,33 +21,32 @@ export default function Voluntarios() {
                         alguns trabalhos em que você pode se envolver:</p>
                 </div>
 
-                <div className="caixaVolExplicacao">
-                    <div className="textoVolComunicacao">
-                        <img className="VoluntarioIcons" src={comunicacaoIcon} />
-                        <h1>Comunicação</h1>
-                        <p>Gosta de Gestão de mídias sociais? Design gráfico?<br />
-                            Storytelling? Engajamento virtual? Precisamos de<br />
-                            pessoas que ajudem a trazer visibilidade para o<br />
-                            instituto e nossos projetos!</p>
-                    </div>
+                <div className="volExplicacao">
+                    <ul>
+                        <li>
+                            <h1>Comunicação</h1>
+                            <p>Gosta de gestão de mídias sociais? Design gráfico?<br/>
+                                Storytelling? Engajamento virtual? Precisamos de<br/>
+                                pessoas que ajudem a trazer visibilidade para o<br/>
+                                instituto e nossos projetos!</p>
+                        </li>
 
-                    <div className="textoVolCaptacao">
-                        <img className="VoluntarioIcons" src={estrelaIcon} />
-                        <h1>Captação</h1>
-                        <p>O terceiro setor precisa muito de recursos para<br />
-                            funcionar, e um dos mais importantes canais é a <br />
-                            captação de recursos através das doações. <br />
-                            Ajude-nos a encontrar mais doadores!</p>
-                    </div>
+                        <li>
+                            <h1>Captação</h1>
+                            <p>O terceiro setor precisa muito de recursos para<br/>
+                                funcionar, e um dos mais importantes canais é a<br/>
+                                captação de recursos através das doações. Ajude-nos<br/>
+                                a encontrar mais doadores</p>
+                        </li>
 
-                    <div className="textoVolProjetos">
-                        <img className="VoluntarioIcons" src={trofeuIcon} />
-                        <h1>Projetos</h1>
-                        <p>O Instituto 4 Elementos tem diversos projetos na <br />
-                            manga, pequenos e grandes, precisando de mais <br />
-                            braços para erguê-los. Venha se envolver nas<br />
-                            nossas ações de impacto socioambiental!</p>
-                    </div>
+                        <li>
+                            <h1>Projetos</h1>
+                            <p>O Instituto 4 Elementos tem diversos projetos na<br/>
+                                manga, pequenos e grandes, precisando de mais<br/>
+                                braços para erguê-los. Venha se envolver nas<br/>
+                                nossas ações de impacto socioambiental!</p>
+                        </li>
+                    </ul>
                 </div>
 
                 <img className='imagemVegetacao' src={imagemVegetacao} />
@@ -82,7 +81,6 @@ export default function Voluntarios() {
                 </form>
 
             </div>
-            <Footer />
         </>
     )
 }
