@@ -22,15 +22,6 @@
     width: 60%;
     margin-bottom: 50px;
 }
-.imgItensDoacao{
-    width: 60px;
-    height: 60px;
-}
-.itensNomeDoacao{
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-}
 
 .itensDoacao{
     margin-top: 50px;
@@ -52,6 +43,6 @@
 
 .descricaoDoacao{
     color: black;
-    font-size: 25px;
-    margin-right: 10px;
+    font-size: 20px;
+    margin-left: 0;
 }
