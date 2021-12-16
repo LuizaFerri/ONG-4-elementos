@@ -12,7 +12,29 @@
 }
 
 .caixaVerdeClaro{
-    background-color: rgb(194, 235, 194);
+    background-color: #BEF2C2;
     width: 80%;
     height: 300px;
+}
+
+.tituloFVClaro{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.textoFVClaro{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caixaVerdeEscuro{
+    background-color: #264A29;
+    height: 150px;
+}
+
+.caixaVerdeEscuro ul{
+    color: white;
 }
