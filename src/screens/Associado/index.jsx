@@ -12,7 +12,17 @@ export default function Associado(){
                 </div>
             
                 <div className="caixaVerdeClaro">
-                    <span className=''>Como se engajar? </span>
+                    <h1 className='tituloFVClaro'>Como se engajar? </h1>
+                    <h1 className='textoFVClaro'>Há muitas formas de ajudar o instituto!</h1>
+
+                    <div className="caixaVerdeEscuro">
+                            <ul>
+                                <li>Seja voluntário!</li>
+                                <li>Seja doador!</li>
+                                <li>Seja um parceiro implementador!</li>
+                                <li>Ajude a divulgar nossos conteúdos nas mídias sociais!</li>
+                            </ul>
+                    </div>
                 </div>
             </div>
             
