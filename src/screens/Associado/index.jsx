@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import './styles.css';
 
 export default function Associado(){
@@ -16,16 +18,18 @@ export default function Associado(){
                     <h1 className='textoFVClaro'>Há muitas formas de ajudar o instituto!</h1>
 
                     <div className="caixaVerdeEscuro">
-                            <ul>
-                                <li>Seja voluntário!</li>
-                                <li>Seja doador!</li>
-                                <li>Seja um parceiro implementador!</li>
-                                <li>Ajude a divulgar nossos conteúdos nas mídias sociais!</li>
-                            </ul>
+                        <div className="textoFVEscuro">
+                            <p> 
+                                ● Seja um voluntário!<br/>
+                                ● Seja um doador!<br/>
+                                ● Seja um parceiro implementador!<br/>
+                                ● Ajude a divulgar nossos conteúdos nas mídias sociais!<br/>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+            <Footer/>
         </>
     )
 }
