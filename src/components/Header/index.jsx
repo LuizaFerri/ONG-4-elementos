@@ -49,7 +49,7 @@ function Header() {
             <div className="dropdown-content">
               <Link to ="/voluntario"> Voluntários </Link>
               <Link to ="/associado"> Associado </Link>
-              <Link to ="/doacao"> Doação </Link>
+            
               
             </div>
           </li>
@@ -58,9 +58,7 @@ function Header() {
               Apoie-nos
             </a>
             <div className="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+             <Link to ="/doacao"> Doação </Link>
             </div>
           </li>
           <li className="dropdown">

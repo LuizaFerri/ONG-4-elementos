@@ -34,3 +34,15 @@ span{
     }
 }
 
+@media screen and (max-width:515px) {
+
+    .contatos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header{
+        height: 100px;
+        justify-content: center;
+    }
+}
