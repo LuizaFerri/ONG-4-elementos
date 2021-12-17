@@ -57,3 +57,23 @@
     align-items: center;
     margin-bottom: 15px;
 }
+
+@media screen and (max-width:400px){
+    .pdoacao{
+        font-size: 18px;
+        padding: 5px;
+    }
+    .tituloIcons{
+        font-size: 18px;
+    }
+    .descricaoDoacao{
+        font-size: 18px;
+    }
+    .imgsDoacao{
+        width: 60px;
+        height: 60px;
+    }
+    .tituloDoacao{
+        font-size: 28px;
+    }
+}
