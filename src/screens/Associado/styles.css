@@ -5,16 +5,20 @@
     align-items: center;
 }
 .textoAsPrincipal{
-    font-size: 35px;
+    font-size: 30px;
     font-style: italic;
     font-weight: bolder;
     color: rgb(0, 0, 155);
+    margin-top: 40px;
+    margin-bottom: 40px;
+
 }
 
 .caixaVerdeClaro{
     background-color: #BEF2C2;
     width: 80%;
     height: 300px;
+    margin-bottom: 50px;
 }
 
 .tituloFVClaro{
@@ -32,9 +36,11 @@
 
 .caixaVerdeEscuro{
     background-color: #264A29;
-    height: 150px;
+    margin-top: 20px;
+    padding: 20px;
 }
 
-.caixaVerdeEscuro ul{
+.textoFVEscuro p{
     color: white;
+    font-size: 25px;
 }
