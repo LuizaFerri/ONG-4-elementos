@@ -148,3 +148,20 @@ main {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .quemsomos {
+    font-size: 18px;
+    width: 85%;
+  }
+  .titulo {
+    font-size: 25px;
+  }
+  .imgItensp , .imgItens {
+    width: 200px;
+  }
+
+  .descricaoParceiros ,.descricaoTransparencia{
+    font-size: 18px;
+  }
+}
