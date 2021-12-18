@@ -24,7 +24,7 @@ export default function Voluntarios() {
                 <div className="volExplicacao">
                     <ul>
                         <li>
-                            <img className='volIcones' src={comunicacaoIcon} />
+                            <img className='volIcones' alt="imagens voluntarios" src={comunicacaoIcon} />
                             <h1>Comunicação</h1>
                             <p>Gosta de gestão de mídias sociais? Design gráfico?<br/>
                                 Storytelling? Engajamento virtual? Precisamos de<br/>
@@ -33,7 +33,7 @@ export default function Voluntarios() {
                         </li>
 
                         <li>
-                        <img className='volIcones' src={estrelaIcon} />
+                        <img className='volIcones' alt="imagens voluntarios" src={estrelaIcon} />
                             <h1>Captação</h1>
                             <p>O terceiro setor precisa muito de recursos para<br/>
                                 funcionar, e um dos mais importantes canais é a<br/>
@@ -42,7 +42,7 @@ export default function Voluntarios() {
                         </li>
 
                         <li>
-                        <img className='volIcones' src={trofeuIcon} />
+                        <img className='volIcones' alt="imagens voluntarios" src={trofeuIcon} />
                             <h1>Projetos</h1>
                             <p>O Instituto 4 Elementos tem diversos projetos na<br/>
                                 manga, pequenos e grandes, precisando de mais<br/>
@@ -52,7 +52,7 @@ export default function Voluntarios() {
                     </ul>
                 </div>
 
-                <img className='imagemVegetacao' src={imagemVegetacao} />
+                <img className='imagemVegetacao 'alt="imagens voluntarios" src={imagemVegetacao} />
 
                 <div className="textoVolPrincipal">
                     <h1>Venha ser um voluntário!</h1>

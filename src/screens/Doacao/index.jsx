@@ -14,7 +14,7 @@ export default function Doacao() {
       <Header />
       <div className="container7">
         <span className="tituloDoacao"> Doação </span>
-        <img className="imgDoacao" src={doacao} />
+        <img className="imgDoacao" alt="imagemDoacao" src={doacao} />
         <p className="pdoacao">
           Ajude o Instituto 4 Elementos a continuar exercendo suas atividades e
           alcançar ainda mais pessoas e regiões benefeciadas em nossos projetos!
@@ -23,7 +23,7 @@ export default function Doacao() {
         <div className="itensDoacao">
           <div className="divItensDoacao">
             <div className="divImgP">
-              <img className="imgsDoacao" src={manutencao} />
+              <img className="imgsDoacao" alt="imagemDoacao" src={manutencao} />
               <p className="tituloIcons">Manutenção institucional:</p>
             </div>
             <span className="descricaoDoacao">
@@ -33,7 +33,7 @@ export default function Doacao() {
           </div>
           <div className="divItensDoacao">
             <div className="divImgP">
-              <img className="imgsDoacao" src={planta} />
+              <img className="imgsDoacao" alt="imagemDoacao" src={planta} />
               <p className="tituloIcons">Plantio de árvores: </p>
             </div>
             <span className="descricaoDoacao">
@@ -42,7 +42,7 @@ export default function Doacao() {
           </div>
           <div className="divItensDoacao">
             <div className="divImgP">
-              <img className="imgsDoacao" src={lixo} />
+              <img  className="imgsDoacao" alt="imagemDoacao" src={lixo} />
               <p className="tituloIcons">Gestão de projetos: </p>
             </div>
             <span className="descricaoDoacao">
@@ -51,7 +51,7 @@ export default function Doacao() {
           </div>
           <div className="divItensDoacao">
             <div className="divImgP">
-              <img className="imgsDoacao" src={remuneracao} />
+              <img className="imgsDoacao"alt="imagemDoacao" src={remuneracao} />
               <p className="tituloIcons"> Remuneração de parceiros: </p>
             </div>
             <span className="descricaoDoacao">

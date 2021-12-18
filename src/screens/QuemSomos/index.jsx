@@ -30,13 +30,13 @@ export default function QuemSomos() {
             conhecimento e a realização de estudos e iniciativas de cooperação
             para o desenvolvimento sustentável, tecnológico, humano e social.
           </p>
-          <img src={fotoPlanta} alt="" className="imagem" />
+          <img src={fotoPlanta} alt="imagem quem somos" className="imagem" />
         </div>
         <div className="container3">
           <span className="titulo">Objetivos</span>
           <div className="objetivos">
             <div className="item">
-              <img className="imgItens" src={vasoPlantas} alt="" />
+              <img className="imgItens" src={vasoPlantas} alt="imagem quem somos" />
               <span className="descricao">
                 Promover a ecologia holística, isto é, o ser humano torna-se
                 responsável pelo equilíbrio ecológico do planeta e pelo direito
@@ -44,7 +44,7 @@ export default function QuemSomos() {
               </span>
             </div>
             <div className="item">
-              <img className="imgItens" src={chats} alt="" />
+              <img className="imgItens" src={chats}alt="imagem quem somos" />
               <span className="descricao">
                 Realizar ações, projetos e programas de cooperação internacional
                 em colaboração com ONGs, universidades, instituições privadas e
@@ -52,7 +52,7 @@ export default function QuemSomos() {
               </span>
             </div>
             <div className="item">
-              <img className="imgItens" src={engrenagens} alt="" />
+              <img className="imgItens" src={engrenagens} alt="imagem quem somos" />
               <span className="descricao">
                 Promover e realizar programas/projetos, consultorias e cursos de
                 formação profissional no Brasil e no exterior, em particular
@@ -63,14 +63,14 @@ export default function QuemSomos() {
           </div>
           <div className="objetivos">
             <div className="item">
-              <img className="imgItens" src={lampada} alt="" />
+              <img className="imgItens" src={lampada} alt="imagem quem somos" />
               <span className="descricao">
                 Defesa, preservação e conservação do meio ambiente e promoção do
                 desenvolvimento sustentável.
               </span>
             </div>
             <div className="item">
-              <img className="imgItens" src={livro} alt="" />
+              <img className="imgItens" src={livro} alt="imagem quem somos"/>
               <span className="descricao">
                 Realizar e apoiar estudos e pesquisas, desenvolvimento de
                 tecnologias alternativas, produção e divulgação de informações e
@@ -79,7 +79,7 @@ export default function QuemSomos() {
               </span>
             </div>
             <div className="item">
-              <img className="imgItens" src={sons} alt="" />
+              <img className="imgItens" src={sons} alt="imagem quem somos"/>
               <span className="descricao">
                 Contribuir para o engajamento de mais stakeholders na promoção
                 de uma sociedade mais sustentável
@@ -96,24 +96,24 @@ export default function QuemSomos() {
           </span>
           <div className="container4">
             <div className="item">
-              <img className="imgItensp" src={cetamb} />
+              <img className="imgItensp" alt="imagem quem somos" src={cetamb} />
             </div>
             <div className="item">
-              <img className="imgItensp" src={fama} />
+              <img className="imgItensp" alt="imagem quem somos" src={fama} />
             </div>
             <div className="item">
-              <img className="imgItensp" src={ifg} />
+              <img className="imgItensp" alt="imagem quem somos" src={ifg} />
             </div>
           </div>
           <div className="container4">
             <div className="item">
-              <img className="imgItensp" src={prefeitura} />
+              <img className="imgItensp" alt="imagem quem somos" src={prefeitura} />
             </div>
             <div className="item">
-              <img className="imgItensp" src={studio} />
+              <img className="imgItensp" alt="imagem quem somos" src={studio} />
             </div>
             <div className="item">
-              <img className="imgItensp" src={ueg} />
+              <img className="imgItensp" alt="imagem quem somos" src={ueg} />
             </div>
           </div>
         </div>

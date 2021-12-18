@@ -11,7 +11,7 @@ function Header() {
       <div className="logo">
         <div>
           <Link to="/">
-            <img src={logo} />
+            <img src={logo} alt="logo" />
           </Link>
           <span className="logoNome"> INSTITUTO 4 ELEMENTOS </span>
         </div>

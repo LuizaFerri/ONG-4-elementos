@@ -21,9 +21,9 @@ export default function Header() {
                 </div>
                 <div className="redesSociais">
                     <span> Redes sociais </span>
-                    <a target="_blank" href="https://www.facebook.com/instituto4Elementos/">  <img className="logos" src={facebook} /> </a>
-                    <a target="_blank" href="https://www.instagram.com/instituto4elementos/"><img className="logos" src={instagram} /> </a>
-                    <a target="_blank" href="https://www.linkedin.com/company/instituto4elementos/"><img className="logos" src={linkedin} /> </a>
+                    <a target="_blank" rel = "noreferrer" href="https://www.facebook.com/instituto4Elementos/">  <img className="logos" alt="logo redes socias" src={facebook} /> </a>
+                    <a target="_blank" rel = "noreferrer" href="https://www.instagram.com/instituto4elementos/"><img className="logos" alt="logo redes socias"  src={instagram} /> </a>
+                    <a target="_blank" rel = "noreferrer" href="https://www.linkedin.com/company/instituto4elementos/"><img className="logos" alt="logo redes socias"  src={linkedin} /> </a>
 
                 </div>
                 <div>

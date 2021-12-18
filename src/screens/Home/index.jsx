@@ -11,7 +11,7 @@ export default function Home () {
          <Header /> 
             <div className="container2">
                 <div className="imagemHome">
-                    <img src={img} />
+                    <img src={img} alt="imagem com texto" />
                 </div>
             </div>
             <Footer />
