@@ -8,7 +8,7 @@ import ProjetosAtuais from '../screens/projetosAtuais/index';
 import Doacao from '../screens/Doacao/index';
 import Voluntarios from '../screens/Voluntarios/index';
 import Associado from "../screens/Associado";
-import Contatos from "../screens/Contatos";
+
 
 const Routes = () => {
     return (
@@ -21,7 +21,6 @@ const Routes = () => {
             <Route component={ Doacao } path="/doacao" />
             <Route component={ Voluntarios } path="/voluntario" />
             <Route component={ Associado } path="/associado" />
-            <Route component={ Contatos } path="/contatos" />
             </Switch>
         </BrowserRouter>
     )

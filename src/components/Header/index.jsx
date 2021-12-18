@@ -69,9 +69,7 @@ function Header() {
              
             </div>
           </li>
-          <li className="dropdown">
-            <Link to='/contatos'>Contatos</Link>
-          </li>
+          
         </ul>
       </div>
     </div>
