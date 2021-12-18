@@ -1,3 +1,4 @@
+
 .containerVol{
     margin-top: 50px;
     display: flex;
@@ -6,10 +7,8 @@
 }
 
 .textoVolPrincipal h1{
-    color: rgb(1, 1, 155);
-    font-size: 30px;
-    font-style: italic;
-    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
     margin-bottom: 30px;
     text-align: center;
     margin-top: 40px;
