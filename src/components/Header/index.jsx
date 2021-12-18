@@ -53,12 +53,20 @@ function Header() {
               
             </div>
           </li>
+           <li className="dropdown">
+            <a href="javascript:void(0)" className="dropbtn">
+              Apoie-nos
+            </a>
+            <div className="dropdown-content">
+              <Link to ="/doacao"> Doação </Link>
+            </div>
+          </li>
           <li className="dropdown">
             <a href="javascript:void(0)" className="dropbtn">
               Publicações
             </a>
             <div className="dropdown-content">
-             <Link to ="/doacao"> Doação </Link>
+             
             </div>
           </li>
           <li className="dropdown">
