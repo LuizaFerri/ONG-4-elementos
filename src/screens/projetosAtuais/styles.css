@@ -30,22 +30,25 @@
   
   .descricaoProjeto {
     
-    max-width: 70%;
     display: flex;
     justify-content: center;
-    height: 400px;
     margin-bottom: 50px;
     flex-direction: column;
-    border: dashed  rgb(36, 192, 36);
-    padding: 10px;
+    max-width: 60%;
+    height: 640px;
+    
+    background: #f5fcee;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
   }
   
   .descricaoProjeto span {
-    color: black;
+    color: #2d8334;
+    margin-right: 20px;
   }
   .obj {
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     font-size: 23px;
   }
   
@@ -61,6 +64,7 @@
   .listaProjetos {
     display: grid;
     margin-left: 50px;
+    margin-right: 50px;
   }
   
   .listaProjetos li {
@@ -86,15 +90,25 @@
     .descricaoProjeto{
       height: auto;
     }
+    .obj{
+       padding: 20px;
+    }
+    .descricaoProjeto span{
+      text-align: center;
+    }
   }
 
 
   @media screen and (max-width:520px) {
     .obj{
      font-size: 18px;
+    
     }
     .listaProjetos li {
       font-size: 18px;
+    }
+    .descricaoProjeto{
+      max-width: 80%;
     }
   }
 

@@ -27,21 +27,23 @@
 }
 
 .descricaoProjeto {
-  
-  max-width: 70%;
   display: flex;
   justify-content: center;
-  height: 400px;
   margin-bottom: 50px;
   flex-direction: column;
+  max-width: 518px;
+  height: 640px;
+  background: #f5fcee;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
 }
 
 .descricaoProjeto span {
-  color: black;
+  color: #2d8334;
 }
 .obj {
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   font-size: 23px;
 }
 
@@ -55,6 +57,7 @@
 .listaProjetos {
   display: grid;
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 .listaProjetos li {
@@ -63,30 +66,46 @@
   font-size: 18px;
 }
 
-.tituloProjeto{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+.tituloProjeto {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
-@media screen and (max-width:720px) {
-  .projetosRealizados{
+.imagemGotaDagua {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-top: 1px solid #dce2d6;
+}
+
+.Img-maos-agua {
+  width: 160px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  .projetosRealizados {
     height: auto;
-    padding-bottom:7px;
+    padding-bottom: 7px;
     width: 45%;
   }
-  .descricaoProjeto{
+  .descricaoProjeto {
     height: auto;
+  }
+  .obj {
+    padding: 20px;
   }
 }
 
-
-@media screen and (max-width:520px) {
-  .obj{
-   font-size: 18px;
+@media screen and (max-width: 520px) {
+  .obj {
+    font-size: 18px;
   }
   .listaProjetos li {
     font-size: 18px;
   }
+  .descricaoProjeto {
+    max-width: 80%;
+  }
 }
-
