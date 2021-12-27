@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../assets/logo.png";
 import "./styles.css";
 import "./reset.css";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -11,7 +10,7 @@ function Header() {
       <div className="logo">
         <div>
           <Link to="/">
-            <img src={logo} alt="logo" />
+            <img src='https://www.datocms-assets.com/60403/1640634012-logo.png' alt="logo" />
           </Link>
           <span className="logoNome"> INSTITUTO 4 ELEMENTOS </span>
         </div>
