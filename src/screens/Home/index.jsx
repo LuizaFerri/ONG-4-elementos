@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css';
 import Header from '../../components/Header';
-import img from '../../assets/imgFrase.png'
 import Footer from '../../components/Footer'
 
 
@@ -11,7 +10,7 @@ export default function Home () {
          <Header /> 
             <div className="container2">
                 <div className="imagemHome">
-                    <img src={img} alt="imagem com texto" />
+                    <img src='https://www.datocms-assets.com/60403/1640633970-imgfrase.png' alt="imagem com texto" />
                 </div>
             </div>
             <Footer />
