@@ -2,19 +2,7 @@ import React from "react";
 import "./styles.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import fotoPlanta from "../../assets/quemsomos.png";
-import engrenagens from "../../assets/engrenagens.png";
-import lampada from "../../assets/lampada.png";
-import chats from "../../assets/chats.png";
-import sons from "../../assets/sons.png";
-import vasoPlantas from "../../assets/vaso-plantas.png";
-import livro from "../../assets/livro.png";
-import cetamb from "../../assets/cetamb-1.png";
-import fama from "../../assets/fama-1.png";
-import ifg from "../../assets/IFG-2.png";
-import prefeitura from "../../assets/prefeitura.png";
-import studio from "../../assets/studio.png";
-import ueg from "../../assets/UEG-1.png";
+
 
 export default function QuemSomos() {
   return (
@@ -30,13 +18,13 @@ export default function QuemSomos() {
             conhecimento e a realização de estudos e iniciativas de cooperação
             para o desenvolvimento sustentável, tecnológico, humano e social.
           </p>
-          <img src={fotoPlanta} alt="imagem quem somos" className="imagem" />
+          <img src='https://www.datocms-assets.com/60403/1640634026-quemsomos.png' alt="imagem quem somos" className="imagem" />
         </div>
         <div className="container3">
           <span className="titulo">Objetivos</span>
           <div className="objetivos">
             <div className="item">
-              <img className="imgItens" src={vasoPlantas} alt="imagem quem somos" />
+              <img className="imgItens" src='https://www.datocms-assets.com/60403/1640634113-vaso-plantas.png' alt="imagem quem somos" />
               <span className="descricao">
                 Promover a ecologia holística, isto é, o ser humano torna-se
                 responsável pelo equilíbrio ecológico do planeta e pelo direito
@@ -44,7 +32,7 @@ export default function QuemSomos() {
               </span>
             </div>
             <div className="item">
-              <img className="imgItens" src={chats}alt="imagem quem somos" />
+              <img className="imgItens" src='https://www.datocms-assets.com/60403/1640633903-chats.png' alt="imagem quem somos" />
               <span className="descricao">
                 Realizar ações, projetos e programas de cooperação internacional
                 em colaboração com ONGs, universidades, instituições privadas e
@@ -52,7 +40,7 @@ export default function QuemSomos() {
               </span>
             </div>
             <div className="item">
-              <img className="imgItens" src={engrenagens} alt="imagem quem somos" />
+              <img className="imgItens" src='https://www.datocms-assets.com/60403/1640633928-engrenagens.png' alt="imagem quem somos" />
               <span className="descricao">
                 Promover e realizar programas/projetos, consultorias e cursos de
                 formação profissional no Brasil e no exterior, em particular
@@ -63,14 +51,14 @@ export default function QuemSomos() {
           </div>
           <div className="objetivos">
             <div className="item">
-              <img className="imgItens" src={lampada} alt="imagem quem somos" />
+              <img className="imgItens" src='https://www.datocms-assets.com/60403/1640633982-lampada.png' alt="imagem quem somos" />
               <span className="descricao">
                 Defesa, preservação e conservação do meio ambiente e promoção do
                 desenvolvimento sustentável.
               </span>
             </div>
             <div className="item">
-              <img className="imgItens" src={livro} alt="imagem quem somos"/>
+              <img className="imgItens" src='https://www.datocms-assets.com/60403/1640634005-livro.png' alt="imagem quem somos"/>
               <span className="descricao">
                 Realizar e apoiar estudos e pesquisas, desenvolvimento de
                 tecnologias alternativas, produção e divulgação de informações e
@@ -79,7 +67,7 @@ export default function QuemSomos() {
               </span>
             </div>
             <div className="item">
-              <img className="imgItens" src={sons} alt="imagem quem somos"/>
+              <img className="imgItens" src='https://www.datocms-assets.com/60403/1640634081-sons.png' alt="imagem quem somos"/>
               <span className="descricao">
                 Contribuir para o engajamento de mais stakeholders na promoção
                 de uma sociedade mais sustentável
@@ -96,24 +84,24 @@ export default function QuemSomos() {
           </span>
           <div className="container4">
             <div className="item">
-              <img className="imgItensp" alt="imagem quem somos" src={cetamb} />
+              <img className="imgItensp" alt="imagem quem somos" src='https://www.datocms-assets.com/60403/1640633892-cetamb-1.png' />
             </div>
             <div className="item">
-              <img className="imgItensp" alt="imagem quem somos" src={fama} />
+              <img className="imgItensp" alt="imagem quem somos" src='https://www.datocms-assets.com/60403/1640633942-fama-1.png' />
             </div>
             <div className="item">
-              <img className="imgItensp" alt="imagem quem somos" src={ifg} />
+              <img className="imgItensp" alt="imagem quem somos" src='https://www.datocms-assets.com/60403/1640633962-ifg-2.png' />
             </div>
           </div>
           <div className="container4">
             <div className="item">
-              <img className="imgItensp" alt="imagem quem somos" src={prefeitura} />
+              <img className="imgItensp" alt="imagem quem somos" src='https://www.datocms-assets.com/60403/1640634017-prefeitura.png' />
             </div>
             <div className="item">
-              <img className="imgItensp" alt="imagem quem somos" src={studio} />
+              <img className="imgItensp" alt="imagem quem somos" src='https://www.datocms-assets.com/60403/1640634093-studio.png' />
             </div>
             <div className="item">
-              <img className="imgItensp" alt="imagem quem somos" src={ueg} />
+              <img className="imgItensp" alt="imagem quem somos" src='https://www.datocms-assets.com/60403/1640634104-ueg-1.png' />
             </div>
           </div>
         </div>
