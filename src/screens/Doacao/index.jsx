@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "./styles.css";
-import doacao from "../../assets/doacao.jpg";
+
 import lixo from "../../assets/doacao/lixo.png";
 import manutencao from "../../assets/doacao/manutencao.png";
 import planta from "../../assets/doacao/planta.png";
@@ -14,7 +14,7 @@ export default function Doacao() {
       <Header />
       <div className="container7">
         <span className="tituloDoacao"> Doação </span>
-        <img className="imgDoacao" alt="imagemDoacao" src={doacao} />
+        <img className="imgDoacao" alt="imagemDoacao" src='https://www.datocms-assets.com/60403/1640633910-doacao.jpg'/>
         <p className="pdoacao">
           Ajude o Instituto 4 Elementos a continuar exercendo suas atividades e
           alcançar ainda mais pessoas e regiões benefeciadas em nossos projetos!

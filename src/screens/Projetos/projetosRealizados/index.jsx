@@ -1,8 +1,9 @@
 import React from "react";
-import "./styles.css";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import water from '../../assets/water.png'
+import "../styles.css";
+import Header from "../../../components/Header";
+import Footer from "../../../components/Footer";
+import water from '../../../assets/water.png'
+import MeninoReciclagem from '../../../assets/Go Green - Recycling 2.png'
 
 export default function ProjetosRealizados() {
   return (
@@ -86,6 +87,9 @@ export default function ProjetosRealizados() {
                     catadores de material reciclável
                   </li>
                 </ul>
+                 <div className="imagemGotaDagua">
+              <img className="Img-maos-agua" src={MeninoReciclagem} alt="maos segurando gota d'agua" />
+              </div>
               </div>
           </div>
         </div>
@@ -119,6 +123,9 @@ export default function ProjetosRealizados() {
                   produção de sabão e biodiesel
                 </li>
               </ul>
+              <div className="imagemGotaDagua">
+              <img className="Img-maos-agua" src='https://www.datocms-assets.com/60403/1640634845-go-green-blue-globe.png' alt="maos segurando gota d'agua" />
+              </div>
             </div>
           </div>
         </div>
@@ -150,6 +157,9 @@ export default function ProjetosRealizados() {
                   participantes do projeto.
                 </li>
               </ul>
+              <div className="imagemGotaDagua">
+              <img className="Img-maos-agua" src='https://www.datocms-assets.com/60403/1640635167-go-green-open-recycle-container.png' alt="maos segurando gota d'agua" />
+              </div>
             </div>
           </div>
         </div>

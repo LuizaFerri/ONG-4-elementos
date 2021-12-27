@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from '../screens/Home/index';
 import QuemSomos from '../screens/QuemSomos/index';
-import ProjetosRealizados from '../screens/projetosRealizados/index';
-import ProjetosAtuais from '../screens/projetosAtuais/index';
+import ProjetosRealizados from '../screens/Projetos/projetosRealizados/index';
+import ProjetosAtuais from '../screens/Projetos/projetosAtuais/index';
 import Doacao from '../screens/Doacao/index';
 import Voluntarios from '../screens/Voluntarios/index';
 import Associado from "../screens/Associado";

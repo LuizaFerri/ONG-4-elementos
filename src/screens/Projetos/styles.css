@@ -19,7 +19,7 @@
   
   .projetosRealizados {
     display: flex;
-    background-color: #3d5e33;
+    background-color: #1f4d2e;
     height: 100px;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,6 @@
     flex-direction: column;
     max-width: 60%;
     height: 640px;
-    
     background: #f5fcee;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
@@ -79,7 +78,28 @@
       margin-bottom: 50px;
   }
 
+
+  .imagemGotaDagua {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+  }
+  
+  .Img-maos-agua {
+    width: 180px;
+    margin-top: 50px;
+  }
+
+
   /*responsividade */
+
+  @media screen and (max-width: 1043px) {
+    .descricaoProjeto {
+      height: auto;
+    }
+  
+  }
 
   @media screen and (max-width:720px) {
     .projetosRealizados{
@@ -87,9 +107,7 @@
       padding-bottom:7px;
       width: 45%;
     }
-    .descricaoProjeto{
-      height: auto;
-    }
+  
     .obj{
        padding: 20px;
     }
@@ -109,6 +127,13 @@
     }
     .descricaoProjeto{
       max-width: 80%;
+    }
+    .projetosRealizados{
+      width: 50%;
+    }
+    .nomeProjeto{
+      font-size: 18px;
+      padding: 5px;
     }
   }
 
