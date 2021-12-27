@@ -2,8 +2,6 @@ import React from "react";
 import "../styles.css";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
-import water from '../../../assets/water.png'
-import MeninoReciclagem from '../../../assets/Go Green - Recycling 2.png'
 
 export default function ProjetosRealizados() {
   return (
@@ -47,7 +45,7 @@ export default function ProjetosRealizados() {
                 <li>Criação do Guia Escola Amiga WASH</li>
               </ul>
               <div className="imagemGotaDagua">
-              <img className="Img-maos-agua" src={water} alt="maos segurando gota d'agua" />
+              <img className="Img-maos-agua" src='https://www.datocms-assets.com/60403/1640634134-water.png' alt="maos segurando gota d'agua" />
               </div>
             </div>
           </div>
@@ -88,7 +86,7 @@ export default function ProjetosRealizados() {
                   </li>
                 </ul>
                  <div className="imagemGotaDagua">
-              <img className="Img-maos-agua" src={MeninoReciclagem} alt="maos segurando gota d'agua" />
+              <img className="Img-maos-agua" src='https://www.datocms-assets.com/60403/1640633954-go-green-recycling-2.png' alt="maos segurando gota d'agua" />
               </div>
               </div>
           </div>
