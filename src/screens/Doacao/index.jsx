@@ -3,10 +3,6 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import "./styles.css";
 
-import lixo from "../../assets/doacao/lixo.png";
-import manutencao from "../../assets/doacao/manutencao.png";
-import planta from "../../assets/doacao/planta.png";
-import remuneracao from "../../assets/doacao/remuneracao.png";
 
 export default function Doacao() {
   return (
@@ -23,7 +19,7 @@ export default function Doacao() {
         <div className="itensDoacao">
           <div className="divItensDoacao">
             <div className="divImgP">
-              <img className="imgsDoacao" alt="imagemDoacao" src={manutencao} />
+              <img className="imgsDoacao" alt="imagemDoacao" src='https://www.datocms-assets.com/60403/1640634175-manutencao.png' />
               <p className="tituloIcons">Manutenção institucional:</p>
             </div>
             <span className="descricaoDoacao">
@@ -33,7 +29,7 @@ export default function Doacao() {
           </div>
           <div className="divItensDoacao">
             <div className="divImgP">
-              <img className="imgsDoacao" alt="imagemDoacao" src={planta} />
+              <img className="imgsDoacao" alt="imagemDoacao" src='https://www.datocms-assets.com/60403/1640634185-planta.png' />
               <p className="tituloIcons">Plantio de árvores: </p>
             </div>
             <span className="descricaoDoacao">
@@ -42,7 +38,7 @@ export default function Doacao() {
           </div>
           <div className="divItensDoacao">
             <div className="divImgP">
-              <img  className="imgsDoacao" alt="imagemDoacao" src={lixo} />
+              <img  className="imgsDoacao" alt="imagemDoacao" src='https://www.datocms-assets.com/60403/1640634169-lixo.png' />
               <p className="tituloIcons">Gestão de projetos: </p>
             </div>
             <span className="descricaoDoacao">
@@ -51,7 +47,7 @@ export default function Doacao() {
           </div>
           <div className="divItensDoacao">
             <div className="divImgP">
-              <img className="imgsDoacao"alt="imagemDoacao" src={remuneracao} />
+              <img className="imgsDoacao"alt="imagemDoacao" src='https://www.datocms-assets.com/60403/1640634193-remuneracao.png' />
               <p className="tituloIcons"> Remuneração de parceiros: </p>
             </div>
             <span className="descricaoDoacao">
