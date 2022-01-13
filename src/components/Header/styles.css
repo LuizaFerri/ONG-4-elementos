@@ -1,243 +1,237 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 html {
-    height: 100%;
+  height: 100%;
 }
 
 * {
-    padding: 0;
-    margin: 0,
-}
-
-
-.container{
-    border: 1px solid rgba(54, 53, 53, 0.343);
+  padding: 0;
+  margin: 0;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo img {
-    width: 160px;
-    height: 125px;
-    margin-right: 10px;
-    cursor: pointer;
-    margin-left: 5px;
+  width: 160px;
+  height: 125px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-left: 5px;
 }
 
 .logo div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.logoNome  {
-    font-size: 36px;
-    font-family: 'Cinzel', serif;
-    color: #A5BE00;
-    
+.logoNome {
+  font-size: 36px;
+  font-family: "Cinzel", serif;
+  color: #a5be00;
 }
 
 .divbnt {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .divbnt button {
-    width: 182px;
-    border-radius: 50px;
-    height: 40px;
-    background-color: #4E1398;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
+  width: 182px;
+  border-radius: 50px;
+  height: 40px;
+  background-color: #4e1398;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .divbnt button:hover {
-    background-color: #4f1398b4;
+  background-color: #4f1398b4;
 }
 
-.itens{
-    background-color: #9EEBA3;
-    height: 50px;
+.itens {
+  background-color: #9eeba3;
+  height: 50px;
 }
 
-.itens button{
-    display: none;
+.itens button {
+  display: none;
 }
-.bntRes{
-    display: flex;
-    justify-content: flex-end;
+.bntRes {
+  display: flex;
+  justify-content: flex-end;
 }
-
 
 .ulHeader {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #9EEBA3;
-    display: flex;
-    justify-content: space-evenly;
-    height: 80px;
-    align-items: center;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9eeba3;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
 }
-
-
 
 li {
-    float: left;
+  float: left;
 }
 
-li a, .dropbtn {
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
+li a,
+.dropbtn {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-li a{
-    font-size: 20px;
+li a {
+  font-size: 20px;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: #9eeba3ab;
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #9eeba3ab;
 }
 
 li.dropdown {
-    display: inline-block;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #c7f3ca;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    margin-right: 60px;
+  display: none;
+  position: absolute;
+  background-color: #c7f3ca;
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-right: 60px;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
 }
 
 .dropdown-content a:hover {
-    background-color: #9eeba3be;
+  background-color: #9eeba3be;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
-.teste{
-    border: none;
-    height: 50px;
-    width: 50px;
-    background-color: transparent;
+.teste {
+  display: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
 }
 
-.icon{
-    width: 50px;
-    height: 25px;
+.icon {
+  width: 50px;
+  height: 25px;
 }
 
-.bntResp{
-    display: flex;
-    justify-content: flex-end;
+.bntResp {
+  display: flex;
+  justify-content: flex-end;
 }
-
 
 /* responsividade */
 
-@media screen and (max-width:940px){
-    .logo img{
-        width: 160px;
-        height: 125px;
-    }
-    .logoNome{
-        font-size: 30px;
-    }
-    .divbnt button{
-        width: 172px;
-        height: 30px;
-    }
-    li a{
-        font-size: 18px;
-    }
+@media screen and (max-width: 940px) {
+  .logo img {
+    width: 160px;
+    height: 125px;
+  }
+  .logoNome {
+    font-size: 30px;
+  }
+  .divbnt button {
+    width: 172px;
+    height: 30px;
+  }
+  li a {
+    font-size: 18px;
+  }
 }
 
-@media screen and (max-width:940px){
-    .logo img{
-        width: 140px;
-        height: 125px;
-    }
-    .logoNome{
-        font-size: 25px;
-    }
-    .divbnt button{
-        width: 165px;
-        height: 25px;
-    }
-    li a{
-        font-size: 16px;
-    }
+@media screen and (max-width: 940px) {
+  .logo img {
+    width: 140px;
+    height: 125px;
+  }
+  .logoNome {
+    font-size: 25px;
+  }
+  .divbnt button {
+    width: 165px;
+    height: 25px;
+  }
+  li a {
+    font-size: 16px;
+  }
 }
 
-@media screen and (max-width:679px) {
-    .ulHeader{
-        display: none;
-    }
-    .itens button{
-        display: block;
-    }
-    .logo img{
-        width: 100px;
-        height: 80px;
-    }
-    .logoNome{
-        font-size: 20px;
-        flex-wrap: wrap;
-    }
-    .divbnt button{
-        width: 155px;
-        height: 25px;
-    }
-    li a{
-        font-size: 16px;
-    }
+@media screen and (max-width: 679px) {
+  .ulHeader {
+    flex-direction: column;
+    height: auto;
+    position: relative;
+  }
+  .itens button {
+    display: block;
+  }
+  .logo img {
+    width: 100px;
+    height: 80px;
+  }
+  .logoNome {
+    font-size: 20px;
+    flex-wrap: wrap;
+  }
+  .divbnt button {
+    width: 155px;
+    height: 25px;
+  }
+  li a {
+    font-size: 20px;
+  }
+  ul{
+    border-bottom: 1px solid black;
+  }
 }
-@media screen and (max-width:559px) {
-    .logoNome{
-        font-size: 18px;
-        flex-wrap: wrap;
-    }
-    .divbnt button{
-        width: 135px;
-        height: 23px;
-        font-size: 12px;
-    }
+@media screen and (max-width: 559px) {
+  .logoNome {
+    font-size: 18px;
+    flex-wrap: wrap;
+  }
+  .divbnt button {
+    width: 135px;
+    height: 23px;
+    font-size: 12px;
+  }
 }
-@media screen and (max-width:599px) {
-
-    .logo img{
-        width: 80px;
-        height: 60px;
-    }
-    .logoNome{
-        font-size: 16px;
-        flex-wrap: wrap;
-    }
-    .divbnt button{
-        width: 125px;
-        height: 25px;
-    }
+@media screen and (max-width: 599px) {
+  .logo img {
+    width: 80px;
+    height: 60px;
+  }
+  .logoNome {
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+  .divbnt button {
+    width: 125px;
+    height: 25px;
+  }
 }
