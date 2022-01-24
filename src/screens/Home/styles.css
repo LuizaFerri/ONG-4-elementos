@@ -1,17 +1,47 @@
-.container2{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+.container2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 300px;
 }
 
-
-.imagemHome img{
-    margin-top: 300px;
-    margin-bottom: 100px;
+.divPhome{
+  
 }
-@media screen and (max-width:1018px) {
-    .imagemHome img{
-        width: 80%;
-    }
+
+.pHome {
+  font-size: 35px;
+  color: #294c23;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 50px;
+  font-family: "Cinzel", serif;
+ 
+}
+
+.imagensOn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.imgsOng {
+  width: 500px;
+  padding: 50px;
+}
+
+@media screen and (max-width: 623px) {
+  .imgsOng {
+    width: 80%;
+    padding: 30px;
+  }
 }
