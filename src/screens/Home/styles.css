@@ -1,47 +1,176 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 .container2 {
-  margin-top: 50px;
+  margin-top: 29px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 300px;
-}
+  background: rgb(235 235 235 / 57%);
 
-.divPhome{
   
 }
 
+
+.divPhome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #daffc2 0%, #7dab91 100%);
+  height: 300px;
+  flex-wrap: wrap;
+}
+
 .pHome {
-  font-size: 35px;
-  color: #294c23;
+  font-size: 40px;
+  color: #000000;
   padding: 10px;
   text-align: center;
-  margin-bottom: 150px;
-  margin-top: 50px;
   font-family: "Cinzel", serif;
  
+ 
+}
+
+.conhecaP{
+  font-size: 30px;
+  color: #000000;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .imagensOn {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-top: 100px;
+  
 }
 
 .imgsOng {
-  width: 500px;
-  padding: 50px;
+  width: 400px;
+  padding: 30px;
 }
 
-@media screen and (max-width: 623px) {
-  .imgsOng {
-    width: 80%;
-    padding: 30px;
+.cards{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin-top: 100px;
+
+}
+.imagemCardMenina{
+    width: 250px;
+    margin-top: 100px;
+}
+
+.card1{
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.418);
+  margin-right: 20px;
+  background: white;
+  min-width : 800px;
+  min-height: 520px;
+  max-width : 600px;
+  max-height: 420px;
+
+}
+
+.titleCard{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cardImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardDescricao{
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width:1714px) {
+  .cards{
+    flex-wrap: wrap;
+    margin-top: 0;;
+
+  }
+  .card1{
+    margin-bottom: 10px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .card1 {
+    min-width : 60%;
+    
+  }
+}
+
+
+@media screen and (max-width: 805px) {
+  .imgsOng {
+    width: 80%;
+  }
+  .imagemCard{
+    width: 80%;
+    margin-top: 50px;
+  }
+  .imagemCardMenina{
+    width: 50%;
+  
+   
+  }
+}
+
+@media screen and (max-width: 780px) {
+ .pHome{
+   font-size: 30px;
+ }
+}
+
+@media screen and (max-width: 600px) {
+  .pHome{
+    font-size: 20px;
+  }
+  .divPhome{
+    height: 150px;
+  }
+  .conhecaP{
+    text-align: center;
+  }
+  .card1{
+    min-height: 300px;
+  }
+ }
+ @media screen and (max-width: 475px) {
+  .pHome{
+    font-size: 18px;
+  }
+  .divPhome{
+    height: 100px;
+  }
+  .conhecaP{
+    text-align: center;
+    font-size: 18px;
+  }
+  .titleCard{
+    font-size: 17px;
+  }
+  .cardDescricao{
+    font-size: 16px;
+  }
+  .divPhome{
+    height: auto;
+  }
+
+  
+ }
+
+
