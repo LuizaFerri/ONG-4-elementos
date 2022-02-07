@@ -27,7 +27,6 @@ main {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-
   align-items: center;
 }
 
@@ -158,11 +157,13 @@ main {
   .titulo {
     font-size: 25px;
   }
-  .imgItensp , .imgItens {
+  .imgItensp,
+  .imgItens {
     width: 200px;
   }
 
-  .descricaoParceiros ,.descricaoTransparencia{
+  .descricaoParceiros,
+  .descricaoTransparencia {
     font-size: 18px;
   }
 }
